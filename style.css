@@ -1,0 +1,23 @@
+#background {
+    background-color: #daf3f7;
+    margin: 0px;
+}
+#title {
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+#projects {
+    text-align: left;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+
+#namesake {
+    text-align: right;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
