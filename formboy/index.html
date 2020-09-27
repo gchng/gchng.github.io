@@ -4,27 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>please</title>
+    <link href="styling.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="outside">
     <div id="inside">
-        <form action="results.html" method="GET">
+        <form action="results.html" method="get">
         <div id="title">
             <h1>application to be my girlfriend</h1>
+            <p id="description">u up?</p>
         </div>
         <div id="form">
             <div id="uno">
                 <div id="personal">
-                    <label for="name">namesies</label>
-                    <input type="text">
+                    <div>
+                        <label for="name">namesies</label>
+                    <input type="text" name="name" id="name" required placeholder="enter name here"></div>
+
+                    <div><label for="email">emailsies</label>
+                    <input type="text" name="email" id="email" required placeholder="enter email here"></div>
+
+                    <div><label for="date">jailbait begone</label>
+                    <input type="date" name="date" id="date" min="2000-01-01"></div> <br>
+
+                    <div>
+                        <label for="gender">sex</label>
+                        <p>
+                            <input type="radio" name="gender" value="male" checked> male <br>
+                            <input type="radio" name="gender" value="female" checked> female <br>
+                            <input type="radio" name="gender" value="yes" checked> yes 
+                        </p>
+                    </div>
                 </div>
             </div>
             <div id="duo">
-                
+                <div>
+                    <label for="plus">check all that apply</label>
+                    <p>
+                        <input type="checkbox" name="green" value="green"> my favourite color is green <br>
+                        <input type="checkbox" name="eat" value="eat"> i can eat alone <br>
+                        <input type="checkbox" name="lizard" value="lizard"> lizard <br>
+                        <input type="checkbox" name="monkeyFeet" value="monkeyFeet"> monkey feet <br>
+                        <input type="checkbox" name="swimteam" value="swimteam"> strong swimmer <br>
+                        <input type="checkbox" name="magi" value="magi"> i am a 7th circle magi <br>
+                    </p>
+                </div>
+                <div>
+                    <label for="bio"></label>
+                    <p>
+                        in 50 words or less, explain if it hurt when you fell from heaven
+                    </p>
+                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="lmk"></textarea>
+                </div>
             </div>
-            <div id="submitti">
-                <button type="submit">mrs.submitti</button>
-                <button type="reset">mr.resetti</button>
+            <div>
+                <button type="submit" id="submitti">mrs.submitti</button>
+                <button type="reset" id="submitti">mr.resetti</button>
             </div>
         </div>
         </form>
